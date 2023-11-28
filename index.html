@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GitHub Finder</h1>
+    </header>
+    <div id="search-container">
+        <input type="text" id="search-user" placeholder="Search GitHub Users..." onkeypress="handleKeypress(event)">
+        <button id="search-btn" onclick="findUser()">Search</button>
+    </div>
+    <div id="profile"></div>
+    <div id="repos"></div>
+    <script src="app.js"></script>
+</body>
+</html>
